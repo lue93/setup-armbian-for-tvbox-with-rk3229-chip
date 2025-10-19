@@ -5,6 +5,9 @@ Este guia mostra como configurar sua TV Box com chip RK3229 usando o Armbian, de
 É possível seguir a documentação de instalação com outros chips (amlogic, allwinner e etc), porem é necessario efetuar o teste com imagens apropriadas do armbian.
 
 
+![lab](images/image.jpg)
+
+
 
 ## ⚠️ Requisitos importantes
 
@@ -26,7 +29,7 @@ Este guia mostra como configurar sua TV Box com chip RK3229 usando o Armbian, de
 
 ## 🛠️ Etapa 1: Gravar o Multitool no cartão SD
 
-Você pode baixa-lo [aqui]().
+Você pode baixa-lo [aqui](https://drive.google.com/file/d/1yX0vm4-_4uwwUxWRjcaVnXaXxVOKjmF3/view?usp=drive_link).
 
 
 ```bash
@@ -34,7 +37,7 @@ sudo unxz -c /home/elima/Downloads/armbian/multitool_f.img.xz | sudo dd of=/dev/
 ```
 
 Agora mova a imagem do armbian para a pasta images.
-Você pode baixa-la [aqui]().
+Você pode baixa-la [aqui](https://drive.google.com/file/d/1WEhj9ptoO3dmUrU47IOMC3MS-YJk-1Qh/view?usp=drive_link).
 #### ⚠️ Se houver erro ao mover a imagem para a pasta images, desmonte o disco e expanda a partição MULTITOOL.
 
 ---
@@ -88,7 +91,7 @@ Você pode baixa-la [aqui]().
    - Teclado USB
    - **Cartão SD**
 
-#### ⚠️⚠️⚠️ Remover o cartao irá manter o multitool e armbian no cartao para utilizar em outra tv box, caso nao remova-o, o armbian utilizará como um disco com ponto de montagem. ⚠️⚠️⚠️
+#### ⚠️⚠️⚠️ Remover o cartao irá manter o multitool e armbian para utilizar em outra tv box, caso nao remova-o, o armbian utilizará como um disco com ponto de montagem. ⚠️⚠️⚠️
 
 
 2. **Insira o cabo de rede RJ45** na porta Ethernet da TV Box.
@@ -209,3 +212,8 @@ Se você encontrou algum erro, comportamento inesperado ou tem sugestões de mel
 🔧 Isso nos ajuda a melhorar continuamente o projeto e oferecer uma experiência cada vez melhor para todos!
 
 Agradecemos pelo seu apoio e colaboração 💙
+
+
+---
+- ⚠️ A formatação deste markdown foi feito com apoio do Copilot
+- ⚠️ Os links dos produtos sao monetizados
