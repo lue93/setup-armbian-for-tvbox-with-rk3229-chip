@@ -6,6 +6,7 @@ Este guia mostra como configurar sua TV Box com chip RK3229 usando o Armbian, de
 
 
 ![lab](images/image.jpg)
+![screen](images/screen.png)
 
 
 
