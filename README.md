@@ -165,7 +165,28 @@ Agora você pode:
 
 
 --- 
+## Extra !: Montar HD externo
 
+⚠️ Certifique-se qual o ponto de montagem do seu disco, se necessario altere o path
+
+```bash
+
+sudo apt install -y ntfs-3g
+
+sudo lsblk
+sudo mkdir -p /mnt/sda
+sudo mount -t ntfs-3g /dev/sda1 /mnt/sda
+
+ls -ld /mnt/sda
+sudo chown -R $USER:$USER /mnt/sda
+
+df -h
+
+```
+
+Dica: Voce pode autoatizar a montagem no crontab com a diretiva reboot
+
+---
 
 ## 🛡️ Recomendações finais
 
@@ -189,8 +210,7 @@ Se você achou esta documentação útil, considere apoiar nosso trabalho tornan
 ---
 
 
-Feito! Sua TV Box com RK3229 está pronta para rodar Armbian com acesso remoto via SSH. 😎
-
+❤️ Feito! Sua TV Box com RK3229 está pronta para rodar Armbian com acesso remoto via SSH. 😎
 
 
 ---
@@ -208,8 +228,6 @@ Se você encontrou algum erro, comportamento inesperado ou tem sugestões de mel
    - O que aconteceu de errado
    - Passos para reproduzir o problema
    - Prints de tela ou logs, se possível
-
-🔧 Isso nos ajuda a melhorar continuamente o projeto e oferecer uma experiência cada vez melhor para todos!
 
 Agradecemos pelo seu apoio e colaboração 💙
 
