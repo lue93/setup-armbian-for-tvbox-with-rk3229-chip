@@ -22,7 +22,7 @@ Este guia mostra como configurar sua TV Box com chip RK3229 usando o Armbian, de
   É necessário um patch cord para conexao estavel. Você pode comprá-lo [aqui](https://mercadolivre.com/sec/23CxYAc).
 
 - **Tv Box**
-  É necessário uma tv box com rockchip. Você pode comprá-lo [aqui](https://mercadolivre.com/sec/23CxYAc).
+  É necessário uma tv box com rockchip. Você pode comprá-lo [aqui](https://mercadolivre.com/sec/1mjuZgN).
 
 
 
